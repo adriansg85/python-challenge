@@ -77,7 +77,7 @@ print("Greatest Increase in Profits: " + str(result_greatest_increase_name) + " 
 print("Greatest Decrease in Profits: " + str(result_greatest_decrease_name) + " ($" + str(greatest_decrease) + ")")
 
 #Output to text file
-text_file = open("PyBank_Results.txt", "w")
+text_file = open("analysis/PyBank_Results.txt", "w")
 text_file.write("Financial Analysis\n")
 text_file.write("------------------------\n")
 text_file.write("Total months: " + str(months) + "\n")

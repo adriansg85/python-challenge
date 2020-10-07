@@ -1,4 +1,2 @@
 *.DS_store
 *.csv
-PyBank/Resources/budget_data.csv
-PyPoll/Resources/election_data.csv

@@ -100,7 +100,7 @@ print(f"Winner:  {winner}")
 print("-------------------------")
 
 #Output to text file
-text_file = open("election_Results.txt", "w")
+text_file = open("analysis/election_Results.txt", "w")
 text_file.write("Election Results\n")
 text_file.write("-------------------------\n")
 text_file.write(f"Total Votes:  {sum(candidate_counter.values())}\n")
